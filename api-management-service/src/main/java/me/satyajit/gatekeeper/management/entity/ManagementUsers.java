@@ -30,6 +30,7 @@ public class ManagementUsers {
 //    @Column(nullable = false, unique = true)
     private String username;
     private String passwordHash;
+    private boolean enabled;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
